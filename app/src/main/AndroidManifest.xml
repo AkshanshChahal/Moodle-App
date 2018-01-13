@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akshanshchahal.moodle_app_aaa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".loginPage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".navigation_draewer"
+            android:label="@string/title_activity_navigation_draewer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".courses_detail"
+            android:label="@string/title_activity_courses_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addthread"
+            android:label="@string/title_activity_addthread"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".assignment"
+            android:label="@string/title_activity_assignment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".threads"
+            android:label="@string/title_activity_threads"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
