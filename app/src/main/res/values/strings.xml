@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Moodle_App_AAA</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contents_page">contents_page</string>
+    <string name="title_activity_navigation">navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_navigation_draewer">navigation_draewer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_courses_details">courses_details</string>
+    <string name="title_activity_courses_detail">courses_detail</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_addthread">addthread</string>
+    <string name="title_activity_assignment">assignment</string>
+    <string name="title_activity_threads">threads</string>
+</resources>
