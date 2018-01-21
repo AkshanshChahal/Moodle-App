@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:visibility="visible">
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Course"
+        android:id="@+id/marks_courseName"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_margin="7dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#4407ae"
+        android:textSize="27sp" />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Assignment Name"
+        android:id="@+id/marks_gradeItem"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_margin="7dp"
+        android:layout_gravity="right"
+        android:textStyle="bold"
+        android:textColor="#4407ae" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Your Score is"
+        android:id="@+id/textView2"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_margin="7dp"
+        android:layout_columnSpan="1"
+        android:textColor="#080707" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SCORE"
+        android:id="@+id/marks_score"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_margin="7dp"
+        android:textColor="#080707" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Weightage is"
+        android:id="@+id/textView5"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_margin="7dp"
+        android:textColor="#080707" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Weightage"
+        android:id="@+id/marks_weight"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_margin="7dp"
+        android:textColor="#080707" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Absolute Marks"
+        android:id="@+id/textView6"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_margin="7dp"
+        android:textColor="#080707" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Abs Marks"
+        android:id="@+id/marks_absoluteMarks"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_margin="7dp"
+        android:textColor="#080707" />
+
+</GridLayout>
